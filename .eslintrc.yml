@@ -1,7 +1,4 @@
 parser: babel-eslint
-extends:
-  - vkbansal
-  - vkbansal/react
 env:
   browser: true
 settings:
