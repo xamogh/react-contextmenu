@@ -18,13 +18,13 @@ ContextMenu in React with accessibility support. Live Examples can be found [her
 Using npm
 
 ```
-npm install --save react-contextmenu
+npm install --save react-contextmenu-v2
 ```
 
 Using yarn
 
 ```
-yarn add react-contextmenu
+yarn add react-contextmenu-v2
 ```
 
 ## Browser Support
@@ -42,7 +42,11 @@ Simple example
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
+import {
+  ContextMenu,
+  MenuItem,
+  ContextMenuTrigger,
+} from "react-contextmenu-v2";
 
 function handleClick(e, data) {
   console.log(data.foo);
